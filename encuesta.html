@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style background-color: #33475b></style>
+  <script>
+        function Registro(){
+            /*var op1 = 'si';
+            alert("Las opciones seleccionadas son "+op1);
+            var op2 = document.getElementById("radio1").value;
+            alert(op2)*/
+            const respuesta1 = document.querySelector('input[name="optradio"]:checked').value;
+            const respuesta2 = document.querySelector('input[name="optradio2"]:checked').value;
+            const respuesta3 = document.querySelector('input[name="optradio3"]:checked').value;
+            const respuesta4 = document.querySelector('input[name="optradio4"]:checked').value;
+            const respuesta5 = document.querySelector('input[name="optradio5"]:checked').value;
+            const respuesta6 = document.querySelector('input[name="optradio6"]:checked').value;
+            let getTextArea = document.getElementById("txtArea");
+            const respuesta7 = getTextArea.value;
+            getTextArea = document.getElementById("txtArea2");
+            const respuesta8 = getTextArea.value;
+            alert("Respuestas enviadas:" + "\n" +
+                "¿Sabes o has escuchado del termino Cloud Computing (Computo en la nube)? "+ respuesta1 + "\n" +
+                "¿Considera que el Cloud Computing es facil o dificil de implementar? " + respuesta2 + "\n" +
+                "¿Conoce cuales son los servicios que se ofrecen Cloud Computing? "+ respuesta3 + "\n" +
+                "¿Si tuvieras la oportunidad de poner Cloud Computing en tu empresa lo harias? "+respuesta4 + "\n" +
+                "¿Cual de los siguientes proveedores de servicios de Cloud Computing prefiere? "+respuesta5 + "\n" +
+                "¿Crees que es importante el Cloud Computing para una empresa ? "+respuesta6 + "\n" +
+                "¿Qué ventajas tiene el uso de Cloud Computing? "+respuesta7 + "\n" +
+                "¿Qué desventajas tiene el uso de Cloud Computing?"+respuesta8)
+        }
+    </script>
+</head>
+<body>
+
+ <form method="post" id="Encuesta" onsubmit="Registro()" name="Encuesta" >
+    <p>¿Sabes o has escuchado del termino Cloud Computing (Computo en la nube)?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio1">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="si" required="true">Si
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio2">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="no">No
+        </label>
+    </div>
+
+    <p>¿Considera que el Cloud Computing es facil o dificil de implementar?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio3">
+            <input type="radio" class="form-check-input" id="radio3" name="optradio2" value="si" required="true">Facil
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio4">
+            <input type="radio" class="form-check-input" id="radio4" name="optradio2" value="no">Dificil
+        </label>
+    </div>
+
+    <p>¿Conoce cuales son los servicios que se ofrecen Cloud Computing?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio5">
+            <input type="radio" class="form-check-input" id="radio5" name="optradio3" value="si" required="true">Si
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio6">
+            <input type="radio" class="form-check-input" id="radio6" name="optradio3" value="no">No
+        </label>
+    </div>
+
+    <p>¿Si tuvieras la oportunidad de poner Cloud Computing en tu empresa lo harias?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio7">
+            <input type="radio" class="form-check-input" id="radio7" name="optradio4" value="si" required="true">Si
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio8">
+            <input type="radio" class="form-check-input" id="radio8" name="optradio4" value="no">No
+        </label>
+    </div>
+
+    <p>¿Cual de los siguientes proveedores de servicios de Cloud Computing prefiere?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio9">
+            <input type="radio" class="form-check-input" id="radio9" name="optradio5" value="Google" required="true">Google
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio10">
+            <input type="radio" class="form-check-input" id="radio10" name="optradio5" value="Amazon">Amazon
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio11">
+            <input type="radio" class="form-check-input" id="radio11" name="optradio5" value="Microsoft">Microsoft
+        </label>
+    </div>
+
+    <p>¿Crees que es importante el Cloud Computing para una empresa ?</p>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio12">
+            <input type="radio" class="form-check-input" id="radio12" name="optradio6" value="si" required="true">Si
+        </label>
+    </div>
+    <div class="form-check-inline">
+        <label class="form-check-label" for="radio13">
+            <input type="radio" class="form-check-input" id="radio13" name="optradio6" value="no">No
+        </label>
+    </div><br>
+
+
+    <label for="txtArea">¿Qué ventajas tiene el uso de Cloud Computing?</label>
+    <textarea class="form-control" rows="5" id="txtArea"></textarea>
+
+    <label for="txtArea2">¿Qué desventajas tiene el uso de Cloud Computing?</label>
+    <textarea class="form-control" rows="5" id="txtArea2" required="true"></textarea>
+
+    <br><br><input type="submit" name="Enviar" value="Enviar" class="btn btn-lg btn-primary"/>
+</form>
+
+
+
+<button class="learn-more">
+  <span class="circle" aria-hidden="true">
+  <span class="icon arrow"></span>
+  </span>
+  <a href="./#section3"><span class="button-text">Regresar</span></a>
+</button>
+
+
+</body>
+</html>

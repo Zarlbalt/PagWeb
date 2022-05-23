@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Computo en la nube</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+      position: relative; 
+  }
+  
+    /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1" hreflang="section1">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Estudio de computo en la nube
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section2">Estado del arte</a>
+        <a class="dropdown-item" href="#section25">Participacion Google documentos</a>
+        <a class="dropdown-item" href="#section3">Sondeo de la opinión estudiantil y académica</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Exploración de los servicios de un proveedor
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section4"> Servicios de Cloud Google</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Temas de exposición
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Tema de exposicion 1</a>
+        <a class="dropdown-item" href="#section42">Tema de exposicion 2</a>
+      </div>
+    </li>
+    
+  </ul>
+</nav>
+
+<div id="section1" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Carrusel de imagenes</h1>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/la.jpg" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/de.jpg" alt="Chicago" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pe.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</div>
+<div id="section2" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Estado del arte</h1>
+  <p>Autor 1 -RockContent </p>
+  <p>La computación en la nube (o cloud computing, en inglés) es una tecnología que permite acceder remotamente, de cualquier lugar del mundo y en cualquier momento, 
+    a softwares, almacenamiento de archivos y procesamiento de datos a través de Internet, sin la necesidad de conectarse a un ordenador personal o servidor local.
+    En otras palabras, la computación en la nube utiliza la conectividad y gran escala de Internet para hospedar los más variados recursos, programas e información, 
+    y permite que el usuario ingrese a ellos través de cualquier ordenador, tablet o celular.
+    
+    Si todavía no quedó claro, déjame ejemplificarlo: si alguna vez editaste un documento en Google Docs, escuchaste música en Spotify o viste una película en Netflix,
+    tuviste contacto directo con la computación en la nube. Todos ellos son servicios online que no demandan la descarga, instalación y acceso de ningún tipo de software o archivo en tu ordenador.
+   Solo necesitas un navegador y una buena conexión a Internet para utilizarlos.
+  </p>
+  <p>
+    Cita: <br>
+    Grapsas, T. (2021, 12 februari). ¿Qué es cloud computing o computación en la nube? Conoce sobre el término a continuación. Rock Content - ES. Geraadpleegd op 30 maart 2022,<br>
+    van https://rockcontent.com/es/blog/computacion-en-la-nube/
+  </p>
+
+  <p><br>
+    Autor 2 -KEV ZETTLER <br>
+    La computación en la nube es la entrega de recursos informáticos, incluidos el almacenamiento, la potencia de procesamiento, las bases de datos, las redes, los análisis, la inteligencia artificial 
+    y las aplicaciones de software, a través de Internet (la nube). Al externalizar estos recursos, las empresas pueden acceder a los activos informáticos que necesitan, en el momento en que los necesitan
+    y sin tener que comprar ni mantener una infraestructura física local de TI. Esto proporciona recursos flexibles, innovación más rápida y economías de escalado. Para muchas empresas, la migración a la 
+    nube está directamente relacionada con la modernización de datos y TI.
+
+    Características de la computación en la nube 
+    Antes de la llegada de la computación en la nube, las organizaciones compraban y mantenían una infraestructura local de TI. Aunque el ahorro de costes impulsó gran parte del cambio inicial a la nube, muchas 
+    organizaciones opinan que las infraestructuras de nube pública, privada o híbrida ofrecen numerosas ventajas. <br><br>
+
+    Cita: <br>
+    Atlassian. (s. f.). ¿Qué es la computación en la nube? Visión general de la nube. Recuperado 30 de marzo de 2022, de https://www.atlassian.com/es/continuous-delivery/principles/cloud-computing
+  </p>
+
+  <p><br>
+    Autor 3 -Cisco <br>
+    La transformación digital ayuda a las empresas a aumentar rápidamente la eficiencia, la agilidad y la conectividad a medida que usan la tecnología para transformar los procesos empresariales en algo más simple,
+    rápido, seguro, flexible y rentable. La tecnología de computación en nube es un pilar de la transformación digital. <br>
+    Cuáles son las ventajas de la computación en nube? <br>
+    La computación en nube ofrece a las empresas modelos prácticos para acceder a las ofertas de infraestructura, plataforma y software de pago por uso. Con la computación en nube, las empresas pueden liberar capital,
+    optimizar el mantenimiento de TI, modernizar y escalar los enfoques empresariales, convertir la seguridad y la flexibilidad en servicios y soluciones, ayudar a los clientes de nuevas maneras, y hacer crecer su 
+    empresa en las condiciones de mercado siempre cambiantes. <br><br>
+    
+    Cita: <br>
+    ¿Qué es la computación en nube? (2020, 9 noviembre). Cisco. Recuperado 30 de marzo de 2022, de https://www.cisco.com/c/es_mx/solutions/cloud/what-is-cloud-computing.html
+  </p>
+  <div id="section25" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Investigacion</h1>
+  <h3>Participacion en google documentos</h3>
+  <p>
+    <h2>Computo en la nube</h2> <br>
+    <h3>Características</h3> <br>
+    <h5>•	Self-service provisioning:</h5>
+    Los usuarios finales pueden hacer generar recursos computacionales para casi cualquier tipo de carga de trabajo bajo demanda. Esto elimina la necesidad tradicional de los administradores de TI de hacer provisioning y administrar recursos computacionales.
+    <h5>•	Elasticidad:</h5>
+    Las empresas pueden ampliar tanta capacidad de computación como necesiten y escalar en función de sus requerimientos. Esto elimina la necesidad de enormes inversiones en infraestructura local, que puede o no permanecer activo.
+    <h5>•	Pago por uso:</h5>
+    Recursos computacionales se miden a un nivel granular, permitiendo a los usuarios pagar por los recursos y las cargas de trabajo que utilizan.
+    <h5>•	Capacidad de carga de trabajo:</h5>
+    Proveedores de servicios cloud a menudo implementan recursos redundantes para asegurar un almacenamiento consistente y que las cargas de trabajo importantes de los usuarios se distribuyan a menudo a través de múltiples regiones globales.
+    <h5>•	Flexibilidad de migración:</h5>
+    Organizaciones pueden mover ciertas cargas de trabajo desde o hacia la nube, o a plataformas en nubes diferentes, bajo demanda o automáticamente, para mejorar sus costos o cubrir nuevos servicios que surjan.
+    <br> <br>
+    <h3>Tipos de nubes</h3>
+    <h5>•	Nubes públicas o de uso global </h5>
+    Gestionadas por empresas prestadoras de estos servicios y en las que se atienden a una pluralidad de clientes.
+    <h5>•	Nubes privadas u orientadas a soluciones corporativas.</h5>
+    son redes o centros de cómputo de propietarios que usan tecnologías de computación en nube. Se caracterizan por ser administradas por la organización a la que sirven y encontrarse aseguradas por medio de un Firewall.
+    <h5>•	Nubes híbridas</h5>
+    las cuales son una mezcla de las anteriores en donde los clientes pueden ser propietarios de unas partes y compartir otras con otros clientes aunque de una manera controlada.
+    <br><br>
+
+    <h3>Tipos de despliegue en la nube</h3>
+    <h4>1)	Modelo de despliegue público (Nube pública)</h4>
+    <h4>2)	Modelos de despliegue privados</h4>
+    <h5>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.	Nube virtual privada (VPC)</h5>
+    <h5>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.	Nube privada</h5>
+    <h4>3)	Modelo de despliegue híbrido</h4>
+
+    <h3>Ventajas de cómputo en la nube</h3>
+    <h5><pre style='display:inline'>&#09;</pre>1)	Disponible en cualquier sitio</h5>
+    <h5><pre style='display:inline'>&#09;</pre>2)	Es multiplataforma</h5>
+    <h5><pre style='display:inline'>&#09;</pre>3)	Puedes compartir con otros</h5>
+    <h5><pre style='display:inline'>&#09;</pre>4)	Evita problemas con dispositivos físicos</h5>
+
+    <h3>Desventajas de cómputo en la nube</h3>
+    <h5><pre style='display:inline'>&#09;</pre>1)	Espacio limitado</h5>
+    <h5><pre style='display:inline'>&#09;</pre>2)	Seguridad</h5>
+    <h5><pre style='display:inline'>&#09;</pre>3)	Es necesario tener internet</h5>
+    <h5><pre style='display:inline'>&#09;</pre>4)	No hay un control total sobre los archivos</h5>
+    <br><br>
+    <h3>Modelos de servicio en la nube</h3>
+    <h4>•	Infraestructura como servicio (IaaS)</h4>
+    La infraestructura como servicio, que a veces se abrevia a IaaS, contiene los bloques de creación fundamentales para la TI en la nube. Por lo general, permite acceder a las características de conexión en red, a los equipos (virtuales o en software dedicado) y al espacio de almacenamiento de datos. La infraestructura como servicio le ofrece el mayor nivel de flexibilidad y control de la administración en torno a sus recursos de TI y guarda el mayor parecido con los recursos de TI existentes con los que muchos departamentos de TI y desarrolladores están familiarizados.
+    <h4>•	Plataforma como servicio (PaaS)</h4>
+    Las plataformas como servicio eliminan la necesidad de las compañías de administrar la infraestructura subyacente (normalmente hardware y sistemas operativos) y le permiten centrarse en la implementación y la administración de sus aplicaciones. Esto contribuye a mejorar su eficacia, pues no tiene que preocuparse del aprovisionamiento de recursos, la planificación de la capacidad, el mantenimiento de software, los parches ni ninguna de las demás arduas tareas que conlleva la ejecución de su aplicación.
+    <h4>•	Software como servicio (SaaS)</h4>
+    El software como servicio le proporciona un producto completo que el proveedor del servicio ejecuta y administra. En la mayoría de los casos, quienes hablan de software como servicio en realidad se refieren a aplicaciones de usuario final. Con una oferta de SaaS, no tiene que pensar en cómo se mantiene el servicio ni en cómo se administra la infraestructura subyacente. Solo debe preocuparse por cómo utilizar ese sistema de software concreto. Un ejemplo común de una aplicación SaaS es un programa de correo electrónico basado en la web que le permite enviar y recibir mensajes sin tener que administrar la incorporación de características ni mantener los servidores y los sistemas operativos en los que se ejecuta el programa de correo electrónico.
+    <br><br><br>
+    <h3>Bibliografía</h3>
+    <button id="boton3">
+      <a href="https://uss.com.ar/corporativo/computacion-en-la-nube/" target="_blank">Sitio 1</a>
+    </button>
+    <button id="boton3">
+      <a href="https://cloudieu.wordpress.com/las-nubes-mas-comunes/" target="_blank">Sitio 2</a>
+    </button>
+    <button id="boton3">
+      <a href="https://www.nexica.com/es/blog/modelos-de-despliegue-cloud-cloud-privado-cloud-p%C3%BAblico-y-cloud-h%C3%ADbrido" target="_blank">Sitio 3</a>
+    </button>
+    <button id="boton3">
+      <a href="https://kinsta.com/es/blog/tipos-de-computacion-en-la-nube/" target="_blank">Sitio 4</a>
+    </button>
+    <button id="boton3">
+      <a href="https://www.redeszone.net/tutoriales/redes-cable/ventajas-desventajas-almacenamiento-nube/" target="_blank">Sitio 5</a>
+    </button>
+    <button id="boton3">
+      <a href="https://aws.amazon.com/es/types-of-cloud-computing/" target="_blank">Sitio 6</a>
+    </button>
+  </p>
+  </div>
+</div>
+<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Sondeo de la opinión estudiantil y académica</h1>
+  <h2>Encuesta</h2>
+  <button class="learn-more">
+    <span class="circle" aria-hidden="true">
+    <span class="icon arrow"></span>
+    </span>
+    <a href="./encuesta.html"><span class="button-text">Encuesta</span></a>
+  </button>
+  <h1>Encuesta en Google Formularios</h1>
+    
+    <a href="https://forms.gle/4fp9mZWfkjZq6AU18" target="_blank" id="boton4">Encuesta</a>
+
+  
+  <h2>Graficas de las respuestas del Formulario</h2>
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 1</h5>
+  <img src="img/pregunta1.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 2</h5>
+  <img src="img/pregunta2.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 3</h5>
+  <img src="img/pregunta3.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 4</h5>
+  <img src="img/pregunta4.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 5</h5>
+  <img src="img/pregunta5.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 6</h5>
+  <img src="img/pregunta6.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 7</h5>
+  <img src="img/pregunta7.PNG" style="display:block; margin:auto;">
+  <h5 style="text-align:center; color: aliceblue;">Pregunta 8</h5>
+  <img src="img/pregunta8.PNG" style="display:block; margin:auto;">
+</div>
+
+<div id="section4" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Productos de Google Cloud</h1>
+  <h2>Aqui hay un link para ir a una pagina donde se encuentran todos los servicios que tiene Google Cloud</h2>
+  <button id="boton2">
+    <a href="https://cloud.google.com/products?hl=es-419#section-1" target="_blank"><span>Servicios</span></a>
+    
+    <div class="liquid"></div>
+  </button>
+
+</div>
+
+
+<div id="section41" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Exposicion Tema 1</h1>
+  <p>Google Cloud Search es una herramienta que te permite buscar la información que necesites para trabajar, desde cualquier lugar. La puedes usar en tu portátil,<br> 
+    teléfono móvil o tablet. Las búsquedas se hacen en todo el contenido de tu organización que esté almacenado en los servicios de Google Workspace o en fuentes  <br>
+    de datos de terceros. <br>
+    Puedes utilizar filtros para una búsqueda más eficiente Partiendo del punto anterior, esta es otra funcionalidad que te ofrece el Google Cloud Search, pues puedes determinar filtros <br> 
+    de contenido para acceder más rápidamente a lo que deseas. Podemos verlo mejor con un ejemplo: Si haces uso de esta característica,entonces podrás hallar más rápido el evento que <br> 
+    buscas o correo electrónico. <br>
+    </p>
+  <button id="boton3">
+  <a href="./PDF/Servicios%20de%20google%20en%20la%20nube.pdf" target="_blank">Google Search Visualizar</a>
+  </button> <br> <br>
+  <button id="boton3">
+  <a href="./PDF/Servicios%20de%20google%20en%20la%20nube.pdf" download="Servicios de google en la nube.pdf" >Google Search descarga</a>
+  </button>
+</div>
+
+
+<div id="section42" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>Exposicion Tema 2</h1>
+  <p>Es una estructura de datos inteligente que permite a las organizaciones administrar, monitorear y gobernar de manera centralizada sus datos a lo largo de lagos, <br>
+    almacenes y bases de datos, en una sola experiencia integrada. La calidad de la data automatizada permite a los analistas y científicos de datos abordar la coherencia <br>
+    de los datos en las herramientas de su elección, para unificar y administrarlos sin moverlos o duplicarlos.  <br>
+    Las empresas tienen datos distribuidos en lagos de datos, almacenes de datos y mercados de datos. Dataplex le permite unificar estos datos sin ningún movimiento de datos, <br> 
+    organizarlos según las necesidades de su negocio y administrar, monitorear y controlar estos datos de manera centralizada. Dataplex permite la estandarización y unificación de <br>
+    metadatos, políticas de seguridad, gobernanza, clasificación y gestión del ciclo de vida de los datos en todos estos datos distribuidos.
+  </p>
+  <button id="boton3">
+    <a href="./PDF/DATAPLEX.pdf" target="_blank">DataPlex Visualizar</a> <br>
+  </button> <br> <br>
+  <button id="boton3">
+    <a href="./PDF/DATAPLEX.pdf" download="DATAPLEX.pdf" >DataPlex descarga</a>
+  </button>
+</div>
+
+
+</body>
+</html>
